@@ -1,0 +1,54 @@
+baseURL = 'https://liamjemison.com'
+locale = 'en-us'
+title = 'Liam Jemison'
+theme = "anubis2"
+
+[pagination]
+pagerSize = 5
+
+[params.author]
+name = "Liam"
+rssIcon = false
+
+[[menu.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+pageref="/about"
+weight = 2
+
+[[menu.main]]
+name = "Publications"
+identifier = "publications"
+url = "/publications"
+weight = 3
+
+[[menu.main]]
+name = "Projects"
+identifier = "projects"
+url = "/projects/"
+weight = 4
+
+[markup.goldmark.renderer]
+unsafe = true # Enable unsafe mode to have a better experience
+
+[markup.highlight]
+style              = 'catppuccin-frappe' # Find more style at here: https://swapoff.org/chroma/playground/
+
+[params.anubis2]
+enableSummary = false
+hideFooterAttribution = true # hide "Powered by Hugo, theme" in footer
+readNextPosts = 0
+enableMathGlobally = true # MathJax (default is false)# Leave all parameters empty to use the default values.
+colorTheme = "auto"
+
+socialIcons = [
+        { id = "github", url = "https://github.com/dave-quesadilla" },
+        { id = "linkedin", url = "https://www.linkedin.com/in/liam-jemison-213443382/" },
+         {id = "google_scholar", url = "https://scholar.google.com/citations?user=Xor0IXMAAAAJ&hl=en&oi=ao"}
+    ]
