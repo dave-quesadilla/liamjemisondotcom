@@ -10,7 +10,7 @@ title = 'Home'
     width=250
 >}}
 
-My name is Liam Jemison. I am mathematics PhD student and teaching assistant at UW Milwaukee. I have a masters degree in math, also from UWM, and a BS in mathematics with computer science minor from Portland State University. 
+My name is Liam Jemison. I am a mathematics PhD student and teaching assistant at UW Milwaukee. I have a masters degree in math, also from UWM, and a BS in mathematics with computer science minor from Portland State University. 
 
 # Projects
 
